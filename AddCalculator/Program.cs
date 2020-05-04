@@ -44,7 +44,7 @@ namespace AddCalculator
 
             numbers = numbers.Substring(numbers.IndexOf(@"\n") + CustomDelimiterIdentifierSeparatorLength);
 
-            return numbers;
+            return numbers; 
         }
 
         public static int GetSum(string numbers)
